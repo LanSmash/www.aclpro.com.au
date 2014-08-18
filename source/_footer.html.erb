@@ -1,0 +1,85 @@
+<aside>
+  <div style="background-color: #333; margin-top: 20px; padding: 20px;">
+    <div class="row">
+    
+        <div class="small-3 large-2 columns">
+              <ul class="no-bullet footertext whitetext">
+              <li class="graytext"><strong>ACLPro</strong></li>
+              <li><%= link_to "Home", '/index.html' %></li>
+              <li><%= link_to "Pro Circuit", '/procircuit.html' %></li>
+              <li><%= link_to "Community", 'http://forums.aclpro.com.au' %></li>
+              <li><%= link_to "Gallery", '/gallery.html' %></li>
+              <!--<li>Store</li>-->
+              </ul>
+        </div>
+        
+        <div class="small-3 large-2 columns">
+                <ul class="no-bullet footertext whitetext">
+              <li class="graytext"><strong>PRO CIRCUIT</strong></li>
+              <li><%= link_to "League of Legends", '/lolportal.html' %></li>
+              <li><%= link_to "Call of Duty", '/codportal.html' %></li>
+              <li><%= link_to "StarCraft II", '/sc2portal.html' %></li>
+              <li><%= link_to "Results", '/resultsportal.html' %></li>
+              <li>Rules & Structure</li>
+              </ul>
+        </div>
+        
+        <div class="small-3 large-2 columns">
+                <ul class="no-bullet footertext whitetext">
+              <li class="graytext"><strong>NEWS</strong></li>
+              <li>ACLPro</li>
+              <li>League of Legends</li>
+              <li>Call of Duty</li>
+              <li>Starcraft II</li>                           
+              <!--<li><%= link_to "ACLPro", '/articles/aclarchive.html' %></li>
+              <li><%= link_to "League of Legends", '/articles/lolarchive.html' %></li>
+              <li><%= link_to "Call of Duty", '/articles/codarchive.html' %></li>
+              <li><%= link_to "Starcraft II", '/articles/sc2archive.html' %></li>-->
+              </ul>
+        </div>
+        
+        <div class="small-3 large-2 columns">
+                <ul class="no-bullet footertext whitetext">
+              <li class="graytext"><strong>ABOUT</strong></li>
+              <li><%= link_to "About", '/about.html' %></li>
+              <li><%= mail_to "info@aclpro.com.au", "Contact Us" , subject: "Hello from aclpro.com.au" %></li>
+              <li><a href="/sponsors.html">Sponsors & Partners</a></li>
+              <li><%= link_to "ACLPro Assets", '/assets.html' %></li>
+              <li><%= link_to "OLD ACLPro Website", 'http://aclpro.com.au' %></li>
+              </ul>
+        </div>
+        
+        <div class="small-12 large-2 columns">
+                <ul class="no-bullet footertext whitetext">
+              <li class="graytext"><strong>FOLLOW</strong></li>
+              <li><img src="/images/socialmedia/twitter.png" width="15px"> <%= link_to "Twitter", 'https://twitter.com/aclpro' %></li>
+              <li><img src="/images/socialmedia/facebook500.png" width="15px"> <%= link_to "Facebook", 'https://www.facebook.com/aclpro' %></li>
+              <li><img src="/images/socialmedia/youtube.png" width="15px"> <%= link_to "Youtube", 'http://www.youtube.com/user/ACLProVideo' %></li>
+              <li><img src="http://s.jtvnw.net/jtv_user_pictures/hosted_images/GlitchIcon_PurpleonWhite.png" width="15px"> <%= link_to "Twitch", 'http://www.twitch.tv/team/acl' %></li>
+              <li><img src="/images/socialmedia/mlg.png" width="15px"> <%= link_to "MLG.tv", 'http://mlg.tv/acl' %></li>
+              </ul>
+        </div>
+        
+        <hr>
+        
+        <div class="small-2 columns">
+            <img src="/images/aclpro_gold.png" width="40px" />
+        </div>
+        
+        <div class="small-10 columns graytext">
+            <p class="footertext">Australian Cyber League, your source for 
+            Australian and New Zealand eSports.<br />
+            Online and National Events for League of Legends, 
+            Starcraft II: Heart of the Swarm and Call of Duty: Ghosts.</p>
+            </p>
+        </div>
+    
+    </div>    
+  </div>
+    
+  <script src="/js/vendor/jquery.js"></script>
+  <script src="/js/foundation.min.js"></script>
+  <script>
+  $(document).foundation();
+  </script>
+</aside>

@@ -1,0 +1,65 @@
+<aside>
+    <div class="small-12 columns padding-0">
+    
+        <div class="contain-to-grid sticky">
+            <nav class="top-bar" data-topbar data-options="sticky_on: large">
+                <ul class="title-area">
+                    <li class="name">
+                    <%= link_to image_tag("/images/aclpro_white_goldbg.png", :width => "71px"), "/index.html" %>
+                    </li>
+                    <li class="toggle-topbar icon\"><a href=""><span>Menu</span></a></li>
+                </ul>
+                <section class="top-bar-section">
+                    <ul class="right">
+                        <li class="active"><a href="/events/2014/live/syd2014.html"><img src="/images/syd/sydneytext.png" width="40px"/></a></li>
+                    </ul>
+                    <ul class="left">
+                        <li class="has-dropdown"><a>WATCH</a>
+                        <ul class="dropdown">
+                            <li><%= link_to "CALL OF DUTY", 'http://mlg.tv/acl', :target => "_blank" %></li>
+                            <!--<li><%= link_to "FIFA 14", '/watch/fifa.html' %></li>-->
+                            <li><%= link_to "LEAGUE OF LEGENDS", '/watch/lol.html' %></li>
+                            <li><%= link_to "STARCRAFT II", '/watch/sc2.html' %></li>
+                            <!--<li><%= link_to "SMASH", '/watch/smash.html' %></li>-->
+                        </ul>
+                        </li>
+                        <li class="has-dropdown"><%= link_to "PRO CIRCUIT", '/procircuit.html' %>
+                            <ul class="dropdown">
+                                <li class="has-dropdown"><a href="/eventsportal.html">EVENTS</a>
+                                    <ul class="dropdown">
+                                        <li><%= link_to "CALL OF DUTY", '/events/2014/cod.html' %></li>
+                                        <li><%= link_to "LEAGUE OF LEGENDS", '/events/2014/lol.html' %></li>
+                                        <li><%= link_to "STARCRAFT II", '/events/2014/sc2.html' %></li>
+                                    </ul>
+                                </li>        
+                                <!--<li><%= link_to "EVENTS", '/events/events.html' %></li>
+                                <li><%= link_to "RESULTS", '/resultsportal.html' %></li>-->
+                                <li class="has-dropdown"><a href="/resultsportal.html">RESULTS</a>
+                                    <ul class="dropdown">
+                                        <li><%= link_to "CALL OF DUTY", '/results/2014/cod/results.html' %></li>
+                                        <li><%= link_to "LEAGUE OF LEGENDS", '/results/2014/lol/results.html' %></li>
+                                        <li><%= link_to "STARCRAFT II", '/results/2014/sc2/results.html' %></li>
+                                    </ul>
+                                </li>  
+                            </ul>
+                        </li>                      
+                        <li><%= link_to "FORUMS", 'http://forums.aclpro.com.au' %></li>
+                        <li><%= link_to "GALLERY", '/gallery.html' %></li>
+                        <!--<li><a href="#">STORE</a></li>-->
+                    </ul>
+                </section>
+            </nav>
+        </div>
+        
+    </div>
+
+    <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-12017558-7', 'auto');
+          ga('send', 'pageview');
+    </script>
+</aside>

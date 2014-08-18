@@ -1,0 +1,2 @@
+ASiKK said:Sup guys, so a few weeks ago I asked all my XBL friends for some clips for a montage I wanted to edit, and got a sick response from everyone 
+![:)](http://www.aclpro.com.au/forums/public/style_emoticons/<#EMO_DIR#>/smile.gif) I think this turned out very well. Just wanna thank everyone who helped me make this. Enjoy

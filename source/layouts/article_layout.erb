@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "ACLPRO" %></title>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <%= stylesheet_link_tag "normalize", "all" %>
+    <link rel="stylesheet" href="/css/foundation.css"/>
+    <link rel="stylesheet" href="/css/aclpro.css">
+    
+    <script src="/js/vendor/modernizr.js"></script>    
+    <%= javascript_include_tag  "all" %>
+
+  </head>
+  
+  <body class="<%= page_classes %>">
+    <%= partial "nav" %>    
+    <% if request.path.include? 'lol' %> 
+      <div class="articlecover small-12 columns" style="background-image: url(/images/lol/splash16.jpg);">
+          <div>
+              <div class="topsectionarticle">
+              <h1 class="whitetext">League of Legends</h1>
+              <h5 class="whitetext" style="margin-top: -20px;">
+                <%= current_page.data.subtitle %>
+              </h5>
+              </div>
+          </div>    
+      </div>
+    <% elsif request.path.include? 'cod' %> 
+      <div class="articlecover small-12 columns" style="background-image: url(/images/cod/cod8.jpg);">
+        <div>
+          <div class="topsectionarticle">
+          <h1 class="whitetext">Call of Duty</h1>
+          <h5 class="whitetext" style="margin-top: -20px;">
+            <%= current_page.data.subtitle %>
+          </h5>
+          </div>
+        </div>    
+      </div>
+    <% else %>
+      <div class="articlecover small-12 columns" style="background-image: url(/images/acl/acl1.jpg);">
+    <%end%>
+
+      </div>
+
+    <div class="row">      
+      <div class="small-12 columns article padding-40">
+        <%= yield %>
+      </div>
+    </div>
+
+    <%= partial "footer" %>     
+    
+  </body>
+</html>

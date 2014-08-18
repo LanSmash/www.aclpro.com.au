@@ -1,0 +1,357 @@
+/*This part is just for you Damo*/
+
+.whitetext {
+	color: #FFF;
+}
+
+.graytext {
+	color: #BBB;
+}
+
+.goldtext {
+    color: #FF8A00;
+}
+
+.bluetext {
+	color: #3381D3;
+}
+
+.redtext {
+    color: #EA4A5A;
+}
+
+.greentext {
+	color: #33d33b;
+}
+
+.center {
+	text-align: center;
+}
+
+.caps {
+	text-transform: uppercase;
+}
+
+.smalltext {
+	font-size: 8px;
+}
+
+.footertext {
+	font-size: 10px;
+}
+
+.darkbg {
+	background-image: url(../images/debut_dark.png);
+	background-repeat: repeat;
+}
+
+.whitebg {
+	background-image: url(../images/debut_light.png);
+	background-repeat: repeat;
+}
+
+.graybg {
+	background-color: rgba(114,114,114,0.05);
+}
+
+.empty {
+    color: rgba(0,0,0,0);
+    font-size: 2px;
+}
+
+/*Do not touch anything below this line unless you know what you're doing.*/
+
+body {
+	background-image: url(../images/debut_light.png);
+	background-repeat: repeat;
+}
+
+.topsection {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 480px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.topsectionlan {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.topsectionarticle {
+    position: absolute;
+    text-align: center;
+    color: #FFF;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.45);
+    top: 70px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.articlebox {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.article {
+	background-image: url(../images/debut_light.png);
+	background-repeat: repeat;
+	margin-top: -240px;
+	padding: 0;
+	z-index: 1;
+}
+
+.articlecover {
+	z-index: 0;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 480px;
+	width: 100%;
+}
+
+.archivebox {
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-left: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: solid 2px #EEE;
+}
+
+.bottombarlol {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #354642;
+	background-size: cover;
+	border-top: 2px solid rgba(69,163,137,1);
+}
+
+.bottombarcod {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #364043;
+	background-size: cover;
+	border-top: 2px solid rgba(144,163,171,1);
+}
+
+.bottombarsc2 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #393440;
+	background-size: cover;
+	border-top: 2px solid rgba(155,94,222,1);
+}
+
+.bottombaracl {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #463F37;
+	background-size: cover;
+	border-top: 2px solid #FF8A00;
+}
+
+.bottombarhalo {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #313442;
+	background-size: cover;
+	border-top: 2px solid #4495AC;
+}
+
+.bottombargreen {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #314231;
+	background-size: cover;
+	border-top: 2px solid #58ac44;
+}
+
+.bottombarred {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #423131;
+	background-size: cover;
+	border-top: 2px solid #ac4444;
+}
+
+.regteambox {
+    width: 200px;
+    background-color: rgba(114,114,114,0.05);
+    text-align: center;
+}
+
+.regplayerbox {
+    width: 800px;
+    display: table-cell;
+    vertical-align: midde;
+}
+
+.lolcolour {
+	background-color: rgba(69, 163, 137, 0.60);
+	height: 100%;
+}
+
+.lolcolour:hover {
+	background-color: rgba(69, 163, 137, 0.80);
+	height: 100%;
+}
+
+.codcolour {
+	background-color: rgba(144, 163, 171, 0.60);
+	height: 100%;
+}
+
+.codcolour:hover {
+	background-color: rgba(144, 163, 171, 0.80);
+	height: 100%;
+}
+
+.sc2colour {
+	background-color: rgba(155, 94, 222, 0.60);
+	height: 100%;
+}
+
+.sc2colour:hover {
+	background-color: rgba(155, 94, 222, 0.80);
+	height: 100%;
+}
+
+.aclcolour {
+	background-color: rgba(255, 138, 2, 0.60);
+	height: 100%;
+}
+
+.aclcolour:hover {
+	background-color: rgba(255, 138, 2, 0.80);
+	height: 100%;
+}
+
+.halocolour {
+	background-color: rgba(58, 130, 207, 0.60);
+	height: 100%;
+}
+
+.halocolour:hover {
+	background-color: rgba(58, 130, 207, 0.80);
+	height: 100%;
+}
+
+.bluecolour {
+	background-color: rgba(62, 160, 255, 0.60);
+	height: 100%;
+}
+
+.bluecolour:hover {
+	background-color: rgba(62,160,255,0.80);
+	height: 100%;
+}
+
+.redcolour {
+    background-color: rgba(230, 74, 78, 0.60);
+    height: 100%;
+}
+
+.redcolour:hover {
+    background-color: rgba(230, 74, 78, 0.80);
+    height: 100%;
+}
+
+.greencolour {
+    background-color: rgba(112, 211, 131, 0.60);
+    height: 100%;
+}
+
+.greencolour:hover {
+    background-color: rgba(112, 211, 131, 0.80);
+    height: 100%;
+}
+
+.padding-0 {
+	padding: 0;
+}
+
+.padding-10 {
+	padding: 5px 10px 5px 10px;
+}
+
+.padding-20 {
+	padding: 10px 20px 10px 20px;
+}
+
+.padding-40 {
+	padding: 20px 40px 20px 40px;
+}
+
+@media only screen and (max-width: 480px) {
+.articlebox {
+	height: 240px;
+}
+    
+.topsection {
+    height: 280px;
+}
+
+.inline-list > li {
+    clear: both;
+}
+    
+}
+
+.vertical-line {
+   width: 10px;
+   height: 300px;
+   background-color: #000000;
+   margin: 0 auto;
+}
+
+.orbit-container .orbit-prev, .orbit-container .orbit-next {
+display:none;
+}
+ 
+/*.orbit-container .orbit-timer {
+display: none;
+}*/
+ 
+.orbit-container .orbit-timer .orbit-progress {
+display: none;
+}
+ 
+.orbit-container .orbit-slide-number {
+display: none;
+}
+
+@font-face { font-family: 'CriqueRegular'; src: url('/fonts/criqueregular.otf'); }
+@font-face { font-family: 'CriqueItalic'; src: url('/fonts/criqueitalic.otf'); }
+@font-face { font-family: 'CriqueBold'; src: url('/fonts/criquebold.otf'); }
+@font-face { font-family: 'CriqueBoldItalic'; src: url('/fonts/criquebolditalic.otf'); }
+@font-face { font-family: 'CriqueLight'; src: url('/fonts/criquelight.otf'); }
